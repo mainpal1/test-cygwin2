@@ -1,5 +1,5 @@
 package test.apns
-
+     
 
 import javapns.Push;
 import javapns.devices.implementations.basic.BasicDevice;
@@ -9,6 +9,7 @@ import javapns.notification.transmission.PushQueue;
 
 import com.notnoop.apns.ApnsService
 class DeviceController {
+
 	ApnsService apnsService
 	def index = {
 		for (int i=0;i<3;i++){
@@ -47,5 +48,7 @@ class DeviceController {
 			 Add a notification for the queue to push 
 			queue.add(payload, devices);
 		*/
+
+
 	}
 }
