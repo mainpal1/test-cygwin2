@@ -1,4 +1,6 @@
-package test.apns
+package test.apns    
+
+
 
 
 import javapns.Push;
@@ -7,6 +9,9 @@ import javapns.notification.PushNotificationPayload;
 import javapns.notification.PushedNotification;
 import javapns.notification.transmission.PushQueue;
 
+
+
+//TEST	
 import com.notnoop.apns.ApnsService
 class DeviceController {
 	ApnsService apnsService
