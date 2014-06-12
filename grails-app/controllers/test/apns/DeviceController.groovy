@@ -1,6 +1,6 @@
 package test.apns
 
-
+  
 import javapns.Push;
 import javapns.devices.implementations.basic.BasicDevice;
 import javapns.notification.PushNotificationPayload;
