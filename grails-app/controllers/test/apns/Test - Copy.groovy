@@ -9,9 +9,9 @@ import javapns.notification.transmission.PushQueue;
 
 import com.notnoop.apns.ApnsService
 class DeviceController {
-	ApnsService apnsService
+	ApnsService apnsService     
 	def index = {
-		for (int i=0;i<3;i++){
+		for (int i=0;i<4;i++){
 		String messages="x Test "
 		String	keystore = "C:\\Users\\Sid\\Downloads\\APNS_PictureApp\\PictureAppCertificates.p12"
 		String	password = "passw0rd"
