@@ -4,5 +4,7 @@ class Device {
 	String token
 	String messages
 	static constraints = {
+
+  //check 
 	}
 }
